@@ -1,3 +1,5 @@
+import ResponsiveNav from "./responsiveNav";
+
 
 const Nav =()=>{
     return(
@@ -14,6 +16,7 @@ const Nav =()=>{
                     <a href="#">Project</a>
                 </li>
             </ul>
+            <ResponsiveNav />
         </div>
     )
 }
