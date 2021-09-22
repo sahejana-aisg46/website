@@ -1,38 +1,104 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+  width: 100%;
+  scroll-behavior: smooth;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  font-family: 'Quicksand', sans-serif;
+  overflow-x: hidden;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.landing-div{
+  height: 55vw;
+  background: #06062A;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.social-nav{
+  position: absolute;
+  margin-top: 40vw;
+}
+.social-nav a{
   color: white;
+  font-size: 1.75vw;
+  margin-left: 45vw;
 }
-
-.App-link {
-  color: #61dafb;
+.social-nav li {
+  margin-top: 1.5vw;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav{
+  position: absolute;
+}
+.nav a{
+  color: white;
+  text-decoration: none;
+}
+.nav li{
+    position: absolute;
+}
+.nav li:nth-child(2){
+  margin-left: 7.5vw;
+}
+.nav li:nth-child(3){
+  margin-left: 15vw;
+}
+.nav ul{
+  display: flex;
+  margin-left: 65vw;
+  padding-top: 2vw;
+  font-size: 1.5vw;
+}
+.land-desc{
+  position: absolute;
+  margin-left: 5vw;
+  margin-top: 20vw;
+}
+.land-desc h3{
+  color: white;
+  font-size: 1.5vw;
+  letter-spacing: 2px;
+}
+.land-desc h1{
+  color: #B20BCE;
+  font-size: 7.5vw;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+  margin-top: 1vw;
+  font-weight: bolder;
+}
+.land-desc p{
+  color: white;
+  margin-top: 1vw;
+}
+.line-1{
+  position: absolute;
+  background: white;
+  height: 0.15vw;
+  width: 8.5vw;
+  margin-top: -1vw;
+  margin-left: 8vw;
+}
+.vid-land{
+  margin-top: 2.5vw;
+}
+.vid-btn{
+  position: absolute;
+  color: white;
+  background: #B20BCE;
+  width: 3.25vw;
+  height: 3.25vw;
+  border-radius: 100%;
+  box-shadow: 0px 2px 3px #AC0CC795;
+}
+.vid-icon{
+  position: absolute;
+  margin-top: 1vw;
+  margin-left: 0.1vw;
+}
+.vid-land h3{
+  position: absolute;
+  margin-left: 5vw;
+  margin-top: 0.75vw;
+  font-size: 1.25vw;
 }
