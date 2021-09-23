@@ -4,7 +4,8 @@ const Team = () => {
     
     return ( 
         <div className="Team">
-        <h1>Our Team</h1><Members members={team} />
+        <h1>Our Team</h1> <br></br>
+        <Members members={team} />
         </div>
      );
 }
