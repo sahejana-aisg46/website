@@ -38,5 +38,36 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
 </body>
-
+<script>
+  const Nav = document.createElement('div');
+  Nav.classList.add('nav-res')
+  Nav.innerHTML = `
+    <ul class="l">
+      <li>
+        About
+      </li>
+      <li>
+        Team
+      </li>
+      <li>
+        Project
+      </li>  
+    
+    </ul>
+  `
+  document.querySelector('body').append(Nav)
+  document.querySelector('.open-btn').addEventListener('click',()=>{
+    document.querySelector('.open-btn').style.display = 'none';
+    document.querySelector('.close-btn').style.display ='block';
+    Nav.style.width = '45vw'
+    document.querySelector('.l').style.display = 'block';
+    document.querySelector('.l').style.color = 'white';
+  })
+  document.querySelector('.close-btn').addEventListener('click',()=>{
+    document.querySelector('.close-btn').style.display = 'none';
+    document.querySelector('.open-btn').style.display ='block';
+    Nav.style.width = '0vw'
+    document.querySelector('.l').style.display = 'none';
+  })
+</script>
 </html>
