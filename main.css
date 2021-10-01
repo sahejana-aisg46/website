@@ -169,6 +169,7 @@ body{
   border: none;
   color: #eee;
   font-family: 'Roboto',sans-serif;
+  border-radius: 5px;
 }
 .init-desc{
   position: absolute;
@@ -377,6 +378,35 @@ body{
   border-radius: 1vw;
   background: rgb(65, 65, 0);
   margin-left: 42.5vw;
+}
+.team-slide{
+  position: absolute;
+  margin-top: 80vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  width: 95%;
+}
+.swiper-wrapper{
+  padding-left: 5vw;
+}
+.swiper-slide{
+  background: #eee;
+  border-radius: 1vw;
+  cursor: pointer;
+  height: 25vw !important;
+}
+.swiper-slide img{
+  width: 15vw;
+  height: 15vw; 
+  border-radius: 100%;
+  margin-top: 1.5vw;
+  margin-left: 5.85vw;
+}
+.swiper-slide h2{
+  margin-top: 2vw;
+}
+.swiper-slide h2,.swiper-slide h4{
+  text-align: center;
 }
 @media only screen and (max-width:600px) {
   .land-img,.social-nav,.nav{
