@@ -276,7 +276,7 @@ body{
 .insta-desc{
   position: absolute;
   width: 22.5vw;
-  height: 26.5vw;
+  height: 27.5vw;
   margin-left: 62.5vw;
   margin-top: 12.5vw;
   border-radius: 1vw;
@@ -345,16 +345,16 @@ body{
 }
 .post-2{
   background: black;
-  width: 12.5vw;
-  height: 12.5vw;
+  width: 13vw;
+  height: 13vw;
   position: absolute;
   margin-top: -27.5vw;
   border-radius: 1vw;
   margin-left: 28.5vw;
 }
 .post-3{
-  width: 12.5vw;
-  height: 12.5vw;
+  width: 13vw;
+  height: 13vw;
   position: absolute;
   margin-top: -27.5vw;
   border-radius: 1vw;
@@ -362,19 +362,19 @@ body{
   margin-left: 42.5vw;
 }
 .post-4{
-  width: 12.5vw;
-  height: 12.5vw;
+  width: 13vw;
+  height: 13vw;
   position: absolute;
-  margin-top: -13.5vw;
+  margin-top: -13vw;
   margin-left: 28.5vw;
   border-radius: 1vw;
   background: #111;
 }
 .post-5{
-  width: 12.5vw;
-  height: 12.5vw;
+  width: 13vw;
+  height: 13vw;
   position: absolute;
-  margin-top: -13.5vw;
+  margin-top: -13vw;
   border-radius: 1vw;
   background: rgb(65, 65, 0);
   margin-left: 42.5vw;
