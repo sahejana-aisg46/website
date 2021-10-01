@@ -298,6 +298,86 @@ body{
   margin-left: 1.5vw;
   margin-top: 10.5vw;
 }
+.time-insta-div ul{
+  position: absolute;
+  margin-left: 65vw;
+  list-style: none;
+  font-size: 1.35vw;
+  margin-top:42.5vw;
+}
+.time-insta-div ul li{
+  position: absolute;
+}
+.s-1,.s-2,.s-3,.s-4{
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.s-1:hover,
+.s-2:hover,
+.s-3:hover,
+.s-4:hover{
+  color: #B20BCE;
+}
+.s-1{
+  margin-left: 2.5vw;
+}
+.s-2{
+  margin-left: 6vw;
+}
+.s-3{
+  margin-left: 9.5vw;
+}
+.s-4{
+  margin-left: 13vw;
+}
+.insta-data{
+  position: absolute;
+  margin-top: 12.5vw;
+  margin-left: 5vw;
+}
+.post-1{
+  width: 27.5vw;
+  height: 27.5vw;
+  background: red;
+  border-radius: 1vw;
+}
+.post-2{
+  background: black;
+  width: 12.5vw;
+  height: 12.5vw;
+  position: absolute;
+  margin-top: -27.5vw;
+  border-radius: 1vw;
+  margin-left: 28.5vw;
+}
+.post-3{
+  width: 12.5vw;
+  height: 12.5vw;
+  position: absolute;
+  margin-top: -27.5vw;
+  border-radius: 1vw;
+  background: #B20BCE;
+  margin-left: 42.5vw;
+}
+.post-4{
+  width: 12.5vw;
+  height: 12.5vw;
+  position: absolute;
+  margin-top: -13.5vw;
+  margin-left: 28.5vw;
+  border-radius: 1vw;
+  background: #111;
+}
+.post-5{
+  width: 12.5vw;
+  height: 12.5vw;
+  position: absolute;
+  margin-top: -13.5vw;
+  border-radius: 1vw;
+  background: rgb(65, 65, 0);
+  margin-left: 42.5vw;
+}
 @media only screen and (max-width:600px) {
   .land-img,.social-nav,.nav{
     display: none;
