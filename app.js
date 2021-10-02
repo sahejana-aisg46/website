@@ -64,8 +64,8 @@ s4.addEventListener('click',()=>{
           slide_image = s.find('.slide-image img'),
           sTotalWidth = sCount * sWidth;
       
-      sWrapper.css('width', sTotalWidth);
-      sWrapper.css('width', sTotalWidth);
+      sWrapper.css('width', sTotalWidth + 50);
+      sWrapper.css('width', sTotalWidth +50);
       
       var clickCount  = 0;
       
