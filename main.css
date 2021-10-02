@@ -451,7 +451,79 @@ body{
     margin-top: 2.5vw;
     margin-left: 2.5vw;
   }
-
+  .about-div h1{
+    font-size: 10vw;
+  }
+  .about-blob{
+    display: none;
+  }
+  .why-desc{
+    background: transparent;
+    width: 100%;
+    margin-left: 0.25vw;
+    margin-top: 45vw;
+  }
+  .why-desc h3{
+    font-size: 5vw;
+  }
+  .why-desc button{
+    width: 15vw;
+    height: 5vw;
+    font-size: 2.5vw;
+  }
+  .init-desc{
+    margin-left: 3.75vw;
+    margin-top:90vw;
+  }
+  .init-desc h3{
+    font-size: 5vw;
+  }
+  .about-p{
+    display: none;
+  }
+  .about-p-2{
+    display: block;
+    margin-left: 30vw;
+    margin-top: 22vw;
+    position: absolute;
+    font-size: 2.60vw;
+    transform: scale(1.5);
+    color: #06062A !important;
+  }
+  .team-div {
+    margin-top:60vw;
+  }
+  .team-div h1{
+    font-size: 10vw;
+  }
+  .timeline-div{
+    margin-top: 250vw;
+  }
+  .line-team{
+    height: 1.5vw;
+    width: 20vw;
+  }
+  .team-div p{
+    margin-left: 5.5vw;
+    margin-top: 79.5vw;
+  }
+  .team-slide{
+    margin-top: 110vw;
+  }
+  .swiper-slide{
+    width: 75vw !important;
+    margin-left: -5vw;
+    height: 70vw !important;
+  }
+  .swiper-slide img{
+    width: 35vw;
+    height: 35vw;
+    margin-left: 20vw;
+    margin-top: 5vw;
+  }
+}
+.about-p-2{
+  color: transparent;
 }
 .activity-panel{
   position: absolute;
