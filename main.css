@@ -521,6 +521,13 @@ body{
     margin-left: 20vw;
     margin-top: 5vw;
   }
+  .timeline-div{
+    height: 150vw;
+  }
+  .activity-panel{
+    position: absolute;
+    margin-top: 350vw;
+  }
 }
 .about-p-2{
   color: transparent;
@@ -650,4 +657,25 @@ div.overlay-blue:hover {
   text-align: center;
   padding: 1vw;
   color: #fff;
+}
+.video-container{
+  margin-top: 50vw;
+  height: 10vw;
+}
+.video-container h1{
+  padding-top: 5vw;
+  margin-left: 5.5vw;
+  font-size: 4.5vw;
+}
+.line-vid{
+  height: 0.5vw;
+  width: 15vw;
+  background-color: #06062A;
+  position: absolute;
+  margin-left: 5.25vw;
+  margin-top: -6.5vw;
+}
+.gallery{
+  margin-top: 5vw;
+  margin-left: 5.5vw;
 }
