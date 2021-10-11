@@ -1,4 +1,5 @@
-fetch(`https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=${process.env.REACT_APP_INSTAGRAM_ACCESS_TOKEN}`).then((res)=> {
+const Token = 'IGQVJYLTE1elYzdUtCQm0tbGtQN3hsRkpTSlI4bmp6NVAxek52RlV1cWxHNXI4LVRkOE5DZAU9UdkljTE5rdmJrTzRJWkpRS1BteHVYdEFSRXhfdDZAOaEkzYVhfQTdTcXZAtZAHRsYVA2Vm9MZAVdIendURk5IRXpjaGFaY2dR'
+fetch(`https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=${Token}`).then((res)=> {
             const response = res.json().then((data)=> {
                 const token = data.access_token 
                 fetch(`https://graph.instagram.com/me/media?fields=id&access_token=${token}`).then((idsres)=> {

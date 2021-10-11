@@ -603,18 +603,21 @@ body{
   .slider{
     margin-top: 10vw;
   }
+  .slide-content{
+    width: 30vw;
+    margin-left: -82.5vw;
+  }
   .slide-date{
-    font-size: 2.5vw !important;
+    font-size: 1.9vw !important;
   }
   .slide-title{
-    font-size: 3.25vw !important;
+    font-size: 2.75vw !important;
     line-height: 3.25vw !important;
   }
   .slide-text{
-    font-size: 2.1vw !important;
+    font-size: 2.5vw !important;
     margin-top: 5vw;
     line-height: 2.25vw !important;
-    width: 20vw;
   }
   .slide-image{
     margin-top: 10vw;
@@ -657,7 +660,7 @@ body{
   cursor: pointer;
 }
 .slide-content {
-  width: 50vw;
+  width: 75vw;
   color: #06062A;
   padding:3vw 18vw 3vw 9vw;
 }
