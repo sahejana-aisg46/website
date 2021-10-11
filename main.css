@@ -39,13 +39,16 @@ body{
 }
 .nav ul{
   list-style: none;
+
 }
 .nav a{
   color: white;
   text-decoration: none;
+  cursor: pointer;
 }
 .nav li{
     position: absolute;
+    z-index: 1000 !important;
 }
 .nav li:nth-child(2){
   margin-left: 7.5vw;
@@ -620,9 +623,8 @@ body{
     margin-top: 85vw !important;
   }
   .footer{
-    margin-top: 100vw !important;
+    margin-top: 140vw !important;
     font-size: 2.75vw !important;
-    margin-left: -3.5vw !important;
   }
 }
 .about-p-2{
