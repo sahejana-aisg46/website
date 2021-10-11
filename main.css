@@ -523,10 +523,106 @@ body{
   }
   .timeline-div{
     height: 150vw;
+    padding-top: 10vw;
   }
+  .timeline-div h1{
+    font-size: 5vw;
+  }
+  .timeline-div h2{
+    font-size: 3.5vw ;
+    margin-top: 17.5vw;
+    margin-left: 10vw;
+   }
+   .line-timeline{
+     display: none;
+   }
+   .timeline-div p{
+     font-size: 3vw;
+     margin-left: 10vw;
+     margin-top: 25vw;
+   }
+   .time-insta-div{
+     margin-top: 50vw;
+     margin-left: 7.5vw;
+     width: 80vw;
+     height: 67.5vw;
+    padding-top: 5vw; 
+   }
+   .time-insta-div ul{
+     margin-top: 53.5vw;
+     font-size: 3.5vw;
+     margin-left: 60vw;
+   }
+   .insta-desc{
+     display: none;
+   }
+   .insta-info h4{
+     font-size: 5vw;
+     margin-left: -2.50vw;
+   }
+   .insta-info a{
+     font-size: 3.5vw;
+     margin-left: -2.5vw;
+   }
+   .insta-dp {
+     display: none;
+   }
+    .post-1{
+     width: 32.5vw ;
+     height: 32.5vw;
+     margin-top: 5vw;
+     margin-left: 2.5vw;
+   }
+   .post-2,.post-3,.post-4,.post-5{
+    height: 15.5vw;
+    width: 15.5vw;
+   }
+   .post-2{
+     margin-left: 38vw;
+     margin-top: -32.5vw;
+   }
+   .post-3{
+     margin-left: 56.5vw;
+     margin-top: -32.5vw;
+   }
+   .post-4{
+     margin-left: 38vw;
+     margin-top: -15.5vw;
+   }
+   .post-5{
+     margin-top: -15.5vw;
+     margin-left: 56.5vw;
+   }
   .activity-panel{
     position: absolute;
-    margin-top: 350vw;
+    margin-top: 150vw !important;
+  }
+  .slider{
+    margin-top: 10vw;
+  }
+  .slide-date{
+    font-size: 2.5vw !important;
+  }
+  .slide-title{
+    font-size: 3.25vw !important;
+    line-height: 3.25vw !important;
+  }
+  .slide-text{
+    font-size: 2.1vw !important;
+    margin-top: 5vw;
+    line-height: 2.25vw !important;
+    width: 20vw;
+  }
+  .slide-image{
+    margin-top: 10vw;
+  }
+  .video-container{
+    margin-top: 85vw !important;
+  }
+  .footer{
+    margin-top: 100vw !important;
+    font-size: 2.75vw !important;
+    margin-left: -3.5vw !important;
   }
 }
 .about-p-2{
